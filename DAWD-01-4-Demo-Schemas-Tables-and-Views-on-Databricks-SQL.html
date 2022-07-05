@@ -83,12 +83,12 @@ Create Schema</h2>
     
     </div>
         <div style="width:800px;">
-            <textarea id="step-2-ta" style="width:780px; padding:10px" rows="3">DROP SCHEMA IF EXISTS {db_name}_schema CASCADE;
-CREATE SCHEMA IF NOT EXISTS {db_name}_schema;
-DESCRIBE SCHEMA EXTENDED {db_name}_schema;</textarea>
-            <textarea id="step-2-backup" style="display:none;">DROP SCHEMA IF EXISTS {db_name}_schema CASCADE;
-CREATE SCHEMA IF NOT EXISTS {db_name}_schema;
-DESCRIBE SCHEMA EXTENDED {db_name}_schema;</textarea>
+            <textarea id="step-2-ta" style="width:780px; padding:10px" rows="3">DROP SCHEMA IF EXISTS {db_name} CASCADE;
+CREATE SCHEMA IF NOT EXISTS {db_name};
+DESCRIBE SCHEMA EXTENDED {db_name};</textarea>
+            <textarea id="step-2-backup" style="display:none;">DROP SCHEMA IF EXISTS {db_name} CASCADE;
+CREATE SCHEMA IF NOT EXISTS {db_name};
+DESCRIBE SCHEMA EXTENDED {db_name};</textarea>
         </div>
         <div style="width:800px; text-align:right;">
             <button id="step-2-btn" type="button"  onclick="
